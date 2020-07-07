@@ -9,10 +9,9 @@ class ServerlessAwsAccessRoleProvider extends Component {
    */
   async provide(inputs = {}) {
     const { accessRole } = inputs
-    let outputs = {}
 
     /**
-     * Calls AWS STS to generate credentials
+     * Calls AWS STS to generate credentials using the accessRole
      */
     
      const outputs = {
@@ -24,4 +23,4 @@ class ServerlessAwsAccessRoleProvider extends Component {
   }
 }
 
-module.exports = MyComponent;
+module.exports = ServerlessAwsAccessRoleProvider;

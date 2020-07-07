@@ -12,4 +12,4 @@ class ServerlessSlackNotifier extends Component {
   } 
 }
 
-module.exports = MyComponent;
+module.exports = ServerlessSlackNotifier;

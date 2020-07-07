@@ -1,4 +1,4 @@
-name: serverless-slack-notifier # Required. The name of the Component
+name: serverless-terraform-provider # Required. The name of the Component
 version: 0.0.4 # Required. The version of the Component
 org: serverlessinc # Required. The Serverless Framework org which owns this Component
 description: Sends notifications from SF Pro to Slack # Optional. The description of the Component

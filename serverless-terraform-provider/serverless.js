@@ -9,7 +9,7 @@ class ServerlessTerraformProvider extends Component {
    */
   async provide(inputs = {}) {
     const { accessToken, org, workspace} = inputs
-    let outputs = {}
+    const outputs = {}
 
     /**
      * Calls Terraform Cloud using the accessToken to access the
@@ -20,4 +20,4 @@ class ServerlessTerraformProvider extends Component {
   }
 }
 
-module.exports = MyComponent;
+module.exports = ServerlessTerraformProvider;
